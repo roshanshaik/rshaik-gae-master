@@ -13,7 +13,6 @@ Most users can get this running by updating the parameters in `pom.xml`.
 
 * Deploy your App
 
-    mvn clean appengine:update -Dappengine.appId=<your-project-id> \
-        -Dappengine.version=bookshelf
+    mvn clean appengine:update -Dappengine.appId=<your-project-id> -Dappengine.version=<N>
 
 Visit it at http://rshaik-hello.appspot.com
